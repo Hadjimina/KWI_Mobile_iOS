@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC30A6C01A4EE52F009A91A6 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = FC30A6BF1A4EE52F009A91A6 /* UIImage+ImageEffects.m */; };
+		FC30A6DA1A4EFAAA009A91A6 /* potato.png in Resources */ = {isa = PBXBuildFile; fileRef = FC30A6D91A4EFAAA009A91A6 /* potato.png */; };
 		FC949D9A1A4709B00039E9E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC949D991A4709B00039E9E5 /* main.m */; };
 		FC949D9D1A4709B00039E9E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC949D9C1A4709B00039E9E5 /* AppDelegate.m */; };
 		FC949DA01A4709B00039E9E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC949D9F1A4709B00039E9E5 /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		FC949DA51A4709B00039E9E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC949DA41A4709B00039E9E5 /* Images.xcassets */; };
 		FC949DA81A4709B00039E9E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC949DA61A4709B00039E9E5 /* LaunchScreen.xib */; };
 		FC949DB41A4709B00039E9E5 /* KWI_MobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC949DB31A4709B00039E9E5 /* KWI_MobileTests.m */; };
+		FCE2D0A81A4ADF5000FA50D5 /* TimeTable.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D0A71A4ADF5000FA50D5 /* TimeTable.m */; };
+		FCE2D0AB1A4AFECC00FA50D5 /* Lessons.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D0AA1A4AFECC00FA50D5 /* Lessons.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC30A6BE1A4EE52F009A91A6 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "../../../../../Downloads/UIImageEffects 2/UIImageEffects/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		FC30A6BF1A4EE52F009A91A6 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "../../../../../Downloads/UIImageEffects 2/UIImageEffects/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		FC30A6D91A4EFAAA009A91A6 /* potato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = potato.png; path = ../../../../../Desktop/potato.png; sourceTree = "<group>"; };
 		FC949D941A4709B00039E9E5 /* KWI Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWI Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC949D981A4709B00039E9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC949D991A4709B00039E9E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,10 @@
 		FC949DAD1A4709B00039E9E5 /* KWI MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KWI MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC949DB21A4709B00039E9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC949DB31A4709B00039E9E5 /* KWI_MobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWI_MobileTests.m; sourceTree = "<group>"; };
+		FCE2D0A61A4ADF5000FA50D5 /* TimeTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeTable.h; path = ../TimeTable.h; sourceTree = "<group>"; };
+		FCE2D0A71A4ADF5000FA50D5 /* TimeTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeTable.m; path = ../TimeTable.m; sourceTree = "<group>"; };
+		FCE2D0A91A4AFECC00FA50D5 /* Lessons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lessons.h; sourceTree = "<group>"; };
+		FCE2D0AA1A4AFECC00FA50D5 /* Lessons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lessons.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +92,18 @@
 		FC949D961A4709B00039E9E5 /* KWI Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				FC30A6D91A4EFAAA009A91A6 /* potato.png */,
+				FC30A6BE1A4EE52F009A91A6 /* UIImage+ImageEffects.h */,
+				FC30A6BF1A4EE52F009A91A6 /* UIImage+ImageEffects.m */,
+				FCE2D0A71A4ADF5000FA50D5 /* TimeTable.m */,
+				FCE2D0A61A4ADF5000FA50D5 /* TimeTable.h */,
 				FC949D9B1A4709B00039E9E5 /* AppDelegate.h */,
 				FC949D9C1A4709B00039E9E5 /* AppDelegate.m */,
 				FC949D9E1A4709B00039E9E5 /* ViewController.h */,
 				FC949D9F1A4709B00039E9E5 /* ViewController.m */,
 				FC949DA11A4709B00039E9E5 /* Main.storyboard */,
+				FCE2D0A91A4AFECC00FA50D5 /* Lessons.h */,
+				FCE2D0AA1A4AFECC00FA50D5 /* Lessons.m */,
 				FC949DA41A4709B00039E9E5 /* Images.xcassets */,
 				FC949DA61A4709B00039E9E5 /* LaunchScreen.xib */,
 				FC949D971A4709B00039E9E5 /* Supporting Files */,
@@ -199,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC30A6DA1A4EFAAA009A91A6 /* potato.png in Resources */,
 				FC949DA31A4709B00039E9E5 /* Main.storyboard in Resources */,
 				FC949DA81A4709B00039E9E5 /* LaunchScreen.xib in Resources */,
 				FC949DA51A4709B00039E9E5 /* Images.xcassets in Resources */,
@@ -220,7 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC949DA01A4709B00039E9E5 /* ViewController.m in Sources */,
+				FCE2D0A81A4ADF5000FA50D5 /* TimeTable.m in Sources */,
+				FC30A6C01A4EE52F009A91A6 /* UIImage+ImageEffects.m in Sources */,
 				FC949D9D1A4709B00039E9E5 /* AppDelegate.m in Sources */,
+				FCE2D0AB1A4AFECC00FA50D5 /* Lessons.m in Sources */,
 				FC949D9A1A4709B00039E9E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +434,7 @@
 				FC949DB91A4709B00039E9E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC949DBA1A4709B00039E9E5 /* Build configuration list for PBXNativeTarget "KWI MobileTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +443,7 @@
 				FC949DBC1A4709B00039E9E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

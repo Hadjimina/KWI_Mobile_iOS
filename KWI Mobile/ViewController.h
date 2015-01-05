@@ -8,7 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<NSURLConnectionDelegate>{
+@public NSString *jsondata;
+}
+
+@property (weak, nonatomic) IBOutlet UIButton *loginbtn;
+@property (weak, nonatomic) IBOutlet UITextField *username;
+@property (weak, nonatomic) IBOutlet UITextField *pwd;
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *progress ;
+
+@property (strong, nonatomic) IBOutlet UIView *LoginView;
+
+@property (weak, nonatomic) IBOutlet UISwitch *RememberMe;
+
 
 
 @end
