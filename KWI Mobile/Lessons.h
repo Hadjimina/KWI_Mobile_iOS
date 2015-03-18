@@ -12,7 +12,6 @@
 
 @property (nonatomic, strong)NSMutableArray *rooms;
 @property (nonatomic, strong)NSMutableArray *subjects;
-//@property (nonatomic, strong)NSMutableArray *changes;
 @property (nonatomic, assign)int timeIndex;
 @property (nonatomic, assign)int day;
 @property (nonatomic, assign)int length;

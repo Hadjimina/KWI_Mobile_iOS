@@ -12,6 +12,7 @@
 
 @property(nonatomic)NSString *json;
 @property(nonatomic)NSMutableArray *lesson_array;
+@property (weak, nonatomic) IBOutlet UILabel *potato;
 
 @property (weak, nonatomic) IBOutlet UILabel *label;
 

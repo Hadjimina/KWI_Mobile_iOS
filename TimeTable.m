@@ -52,7 +52,7 @@
                 
             }
         }else{
-            NSLog(@"asfdasdfasdfad");
+
             
             for (id daykey in day_json) {
                 int lesson_nr = (int)[daykey integerValue];
@@ -83,6 +83,8 @@
         
     }*/
     
+   
+    
     
 }
 
@@ -94,6 +96,7 @@
 - (IBAction)OnClick:(id)sender {
     
     [self parseData];
+    
 }
 
 - (void)didReceiveMemoryWarning {
