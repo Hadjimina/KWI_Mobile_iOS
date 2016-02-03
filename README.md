@@ -5,6 +5,8 @@ This is an iOS application which lets the students of the KWI in switzerland acc
 
 Extensive documentation can be found here : https://goo.gl/rBFZpq
 
+Android version as reference : https://github.com/Hadjimina/KWI_Mobile
+
 State:
 Post request to get data done.
 Need to create table to display data from post.
