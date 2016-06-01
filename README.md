@@ -8,5 +8,4 @@ Extensive documentation can be found here : https://goo.gl/rBFZpq
 
 Android version as reference : https://github.com/Hadjimina/KWI_Mobile
 
-State:
-Post request to get data done.
+If some KWI student wants to continue to work on this project, feel free to do so. Never the less I would appreciate a heads up. Enjoy !
