@@ -10,4 +10,3 @@ Android version as reference : https://github.com/Hadjimina/KWI_Mobile
 
 State:
 Post request to get data done.
-Need to create table to display data from post.
