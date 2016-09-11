@@ -1,4 +1,4 @@
-KWI_Mobile-iOS
+KWI Mobile iOS
 ==============
 ![alt tag](https://raw.githubusercontent.com/Hadjimina/KWI_Mobile_iOS/master/iOS%20Simulator%20Screen%20Shot%2002%20Jan%202015%2010.58.17_iphone6_spacegrey_portrait.png)
 
